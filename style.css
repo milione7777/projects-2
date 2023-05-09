@@ -12,3 +12,8 @@ margin-left: 100px;
   color: #03A9F4;
   cursor: pointer;
 }
+
+.img {
+  display: block;
+  margin-top: 111px;
+}
