@@ -1,19 +1,59 @@
 .navbar-text {
+  text-align: center;
 font-family: 'Playfair Display';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 19px;
 color: #7d7d7d;
-margin-left: 100px;
+margin-left: 50px;
+margin-right: 65px;
+
+}
+
+.navbar__text {
+text-align: center;
 }
 
 .navbar-text:hover {
   color: #03A9F4;
   cursor: pointer;
+
 }
 
 .img {
   display: block;
   margin-top: 111px;
+  padding-left: 148px;
+  
+}
+
+.height {
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+color: #B4AD9E;
+padding-left: 148px;
+}
+
+.name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  color: #626262;
+  padding-left: 145px;
+  
+}
+
+.title {
+  width: 420px;
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #626262;
+padding-left: 145px;
 }
