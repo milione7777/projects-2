@@ -1,34 +1,36 @@
-.navbar-text {
-  text-align: center;
-font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-color: #7d7d7d;
-margin-left: 50px;
-margin-right: 65px;
-
+body {
+  font-family: 'Playfair Display';
 }
 
-.navbar__text {
-text-align: center;
+
+.item {
+  font-size: 14px;
+  line-height: 19px;
+  color: #7d7d7d;
+  text-transform: uppercase;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-.navbar-text:hover {
+.item:hover {
   color: #03A9F4;
-  cursor: pointer;
-
 }
 
-.img {
-  display: block;
+.header {
+  margin-top: 70px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+
+
+.card-img {
   margin-top: 111px;
   padding-left: 148px;
   
 }
 
-.height {
+.card-subtitle {
 font-family: 'Ubuntu';
 font-style: normal;
 font-weight: 300;
@@ -38,7 +40,7 @@ color: #B4AD9E;
 padding-left: 148px;
 }
 
-.name {
+.card-title {
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -48,7 +50,7 @@ padding-left: 148px;
   
 }
 
-.title {
+.card-text {
   width: 420px;
   font-style: normal;
 font-weight: 400;
@@ -56,4 +58,37 @@ font-size: 14px;
 line-height: 19px;
 color: #626262;
 padding-left: 145px;
+}
+
+.card {
+  
+  margin-left: 10px;
+  margin-left: 0 auto;
+  width: 0 auto;
+  
+}
+
+.card-grid {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.button {
+  border: 1px solid #626262;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 20px 50px;
+  margin-left: 550px;
+  margin-right: 550px;
+  margin-bottom: 100px;
+  margin-top: 90px;
+  color: #626262;
+  background-color: #fff;
+}
+
+.button:hover {
+  color: #03A9F4;
+  border: 1px solid #03A9F4;
 }
